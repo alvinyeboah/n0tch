@@ -1,5 +1,12 @@
 # Developer preview notes
 
+## 0.1.1 — 4 November 2026
+
+- **Updates inside the app.** n0tch checks for a new version once a day and offers to install it. Choose Update & Restart and it downloads, verifies and replaces itself in a few seconds. It installs only a download that is signed by the same developer, notarized by Apple and newer than the running app. Right-click the notch → Check for Updates…, or Settings → About. Turn the daily check off there if you prefer.
+- Fixed "100%" wrapping onto two lines in the expanded header while charging, and the Focus (Do Not Disturb) icon being squeezed toward the physical notch. The Focus icon now sits beside the clock.
+
+If you installed 0.1.0, download this version once by hand. From here on, updates arrive inside n0tch.
+
 ## 0.1.0 — 4 November 2026
 
 First public developer preview.

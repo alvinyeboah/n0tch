@@ -18,7 +18,7 @@
   <img alt="Status" src="https://img.shields.io/badge/status-developer%20preview-d1362b">
 </p>
 
-n0tch is written in **Swift, SwiftUI and AppKit**. There is no web view, no account, no analytics and no telemetry. The only network request it can make is an optional album cover lookup, which you can switch off.
+n0tch is written in **Swift, SwiftUI and AppKit**. There is no web view, no account, no analytics and no telemetry. The only network requests it can make are a once-a-day check for a newer version and an optional album cover lookup; both can be switched off.
 
 > **Developer preview.** n0tch is early software shared for testing and feedback. Read [Status and known limits](#status-and-known-limits) first.
 
@@ -26,14 +26,14 @@ n0tch is written in **Swift, SwiftUI and AppKit**. There is no web view, no acco
 
 **Requirements:** a Mac with Apple Silicon and **macOS 14 or later**. The lock screen record was tested on macOS 27.
 
-1. Download `n0tch-0.1.0.dmg` from the [latest release](https://github.com/alvinyeboah/n0tch/releases/latest).
+1. Download `n0tch-0.1.1.dmg` from the [latest release](https://github.com/alvinyeboah/n0tch/releases/latest).
 2. Open it and drag **n0tch** to **Applications**.
 3. Open n0tch. When asked, allow **Accessibility** so it can handle the volume and brightness keys and scrolling over the notch.
 
-Every release is signed with a Developer ID certificate and notarized by Apple. Verify a download with:
+Every release is signed with a Developer ID certificate and notarized by Apple. After this first install n0tch updates itself (Settings → About), so you never need to download it again. Verify a download with:
 
 ```bash
-shasum -a 256 n0tch-0.1.0.dmg
+shasum -a 256 n0tch-0.1.1.dmg
 ```
 
 and compare it with `SHA256SUMS` on the release page.
